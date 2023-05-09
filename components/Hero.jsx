@@ -11,6 +11,7 @@ const Hero = () => {
         fill
         style={{ objectFit: 'cover' }}
         className="absolute -z-10 "
+        priority
       />
       <div className="max-w-[1400px] mx-auto flex flex-col justify-center w-full mt-[91px] pb-8 gap-12">
         <h1 className="text-7xl font-bold w-[70%] leading-snug text-white">
