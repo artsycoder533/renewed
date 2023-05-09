@@ -13,7 +13,7 @@ const Footer = () => {
   
   return (
     <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-4">
-      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 lg:flex-row justify-center md:justify-between ">
+      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 lg:flex-row justify-center md:justify-between">
         <Image src={logo} width={275} height={275} alt="" />
         <div className="w-full md:w-auto">
           <ul className="w-full md:w-auto grid grid-cols-2 md:gap-x-24">
@@ -24,7 +24,7 @@ const Footer = () => {
                   <Link
                     href={path}
                     scroll={false}
-                    className="hover:underline py-2 hover:text-[#1A8B90]">
+                    className="hover:underline py-2 hover:text-[#26CCAF]">
                     {link}
                   </Link>
                 </li>
@@ -32,25 +32,25 @@ const Footer = () => {
             })}
           </ul>
         </div>
-        <div className="border flex flex-col items-center">
-          <p className="text-center py-3 flex flex-col gap-3">
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-center  flex flex-col ">
             ReNEWed Psychological and Consultation Services, LLC
           </p>
-          <p className="text-center py-3 flex flex-col gap-3">Suprise, AZ</p>
+          <p className="text-center  flex flex-col gap-3">Suprise, AZ</p>
           <Link
-            className="text-center py-3 flex flex-col gap-3"
+            className="text-center  flex flex-col gap-3 hover:text-[#26CCAF]"
             href="tel:850-739-2332">
             850-739-2332
           </Link>
-          <Link href="mailto:renewedpsychological@gmail.com">
+          <Link href="mailto:renewedpsychological@gmail.com" className="hover:text-[#26CCAF]">
             renewedpsychological@gmail.com
           </Link>
-          <div className="flex">
+          <div className="flex gap-4 mt-2">
             <Link href="https://www.instagram.com/renewedpsychological/">
-              <FaInstagram />
+              <FaInstagram className="text-3xl hover:text-[#26CCAF]" />
             </Link>
             <Link href="https://www.facebook.com/renewedpsychological">
-              <FaFacebookF />
+              <FaFacebookF className="text-3xl hover:text-[#26CCAF]" />
             </Link>
           </div>
         </div>

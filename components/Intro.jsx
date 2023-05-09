@@ -3,7 +3,7 @@ import React from 'react'
 function Intro() {
   return (
     <div className="bg-[#0B4D4B] text-white" id="why-therapy">
-      <div className="w-[70vw] max-w-[1400px] mx-auto md:text-center py-24 border-b-2">
+      <div className="w-[70vw] max-w-[1400px] mx-auto md:text-center py-24">
         <h2 className="text-4xl font-semibold mb-8 text-center">
           Mission Statement
         </h2>

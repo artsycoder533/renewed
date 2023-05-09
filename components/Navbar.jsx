@@ -43,7 +43,7 @@ const Navbar = () => {
           return (
             <li key={index}>
               <Link
-                className="text-2xl md:text-base hover:underline py-2 hover:text-[#1A8B90]"
+                className="text-2xl md:text-base hover:underline py-2 hover:text-[#ECD4FF]"
                 href={path}
                 scroll={false}
                 onClick={() => setOpen(false)}>

@@ -2,26 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+  input, textarea {
+    @apply p-3 text-lg text-white bg-[#018183] placeholder:text-white
+  }
+  label {
+    @apply text-lg pb-2
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+/* width */
+    ::-webkit-scrollbar {
+    width: 17px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #fff;
+    border: 1px solid #1A8B90;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #BE8DE7
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    border: 1px solid #BCE01A;
+    }

@@ -10,7 +10,7 @@ function Services() {
         <h2 className="text-5xl text-center pb-16 text-[#BE8DE7]">
           Our Services
         </h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
           {services.map((service, index) => {
             return <ServiceCard key={index} {...service} />
           })}

@@ -13,14 +13,14 @@ const Hero = () => {
         className="absolute -z-10 "
         priority
       />
-      <div className="max-w-[1400px] mx-auto flex flex-col justify-center w-full mt-[91px] pb-8 gap-12">
-        <h1 className="text-7xl font-bold w-[70%] leading-snug text-white">
-          Experience Change with ReNEWed Psychologial and Consultation Services,
-          LLC
+      <div className="max-w-[1400px] mx-auto flex flex-col justify-center items-center w-full mt-[91px] pb-8 gap-12">
+        <h1 className="text-7xl font-bold w-[70%] leading-snug text-white text-center">
+          Experience <span className="italic text-[#BE8DE7]">Change</span> with
+          ReNEWed Psychologial and Consultation Services, LLC
         </h1>
         <button
           type="button"
-          className="px-8 py-4 self-start font-bold bg-[#BE8DE7] text-[#0B4D4B]  hover:bg-[#26CCAF] text-lg">
+          className="px-8 py-4 font-bold bg-[#BE8DE7] text-[#0B4D4B] text-lg self-center">
           Get In Touch
         </button>
       </div>
