@@ -7,7 +7,20 @@ import consultation from './public/images/consultation.jpg'
 export const navItems = [
   { link: 'Home', path: '#' },
   { link: 'About Us', path: '#about-us' },
-  { link: 'Services', path: '#services' },
+  {
+    link: 'Services',
+    sublinks: [
+      { link: 'Individual Counseling', path: '/#individual-counseling' },
+      { link: 'Couples Therapy', path: '/#couples-therapy' },
+      { link: 'Family Therapy', path: '/#family-therapy' },
+      {
+        link: 'Psychological Assessments and Evaluations',
+        path: '/#psychological-assessments',
+      },
+      { link: 'Consultation', path: '/#consultation' },
+      { link: 'Supervision', path: '/#supervision' },
+    ],
+  },
   { link: 'Contact', path: '#contact' },
 ]
 
@@ -28,10 +41,7 @@ export const footerLinks = [
     link: 'Family Therapy',
     path: '/#family-therapy',
   },
-  {
-    link: 'Psychological Assessments and Evaluations',
-    path: '/#psychologial-assessments',
-  },
+
   {
     link: 'Consultation',
     path: '/#consultation',
@@ -39,6 +49,10 @@ export const footerLinks = [
   {
     link: 'Supervision',
     path: '/#supervision',
+  },
+  {
+    link: 'Psychological Assessments and Evaluations',
+    path: '/#psychological-assessments',
   },
   {
     link: 'Contact',

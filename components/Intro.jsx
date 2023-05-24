@@ -3,11 +3,16 @@ import React from 'react'
 function Intro() {
   return (
     <div className="bg-[#0B4D4B] text-white" id="why-therapy">
-      <div className="w-[70vw] max-w-[1400px] mx-auto md:text-center py-24">
+      <div className="w-[90vw] md:w-[70vw] max-w-[1400px] mx-auto md:text-center py-24">
         <h2 className="text-4xl font-semibold mb-8 text-center">
           Mission Statement
         </h2>
         <p className="leading-10 text-xl">
+          {/* <p
+            className="first-letter:text-7xl first-letter:font-bold first-letter:text-white
+  first-letter:mr-3 first-letter:float-left">
+            I
+          </p>{' '} */}
           I believe that people have an immense potential to improve their life,
           overcome their challenges and restore themselves. My goal is to
           provide safe, effective, client specific programming, tailored towards

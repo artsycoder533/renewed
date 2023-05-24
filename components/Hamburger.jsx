@@ -16,7 +16,7 @@ function Hamburger({ open, setOpen }) {
           }
         />
         <span
-          className={`w-full h-[6px] bg-black rounded-lg transition-opacity absolute ${
+          className={`w-full h-[6px] bg-white rounded-lg transition-opacity absolute ${
             open ? 'opacity-0' : 'opacity-100'
           }`}
         />

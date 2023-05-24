@@ -13,10 +13,10 @@ const Footer = () => {
   
   return (
     <footer className="flex flex-col justify-center items-center sticky top-full bg-black text-white py-4">
-      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 lg:flex-row justify-center md:justify-between">
+      <div className="w-[90vw] md:max-w-[1400px] flex flex-col gap-6 lg:flex-row justify-center items-center md:justify-between">
         <Image src={logo} width={275} height={275} alt="" />
         <div className="w-full md:w-auto">
-          <ul className="w-full md:w-auto grid grid-cols-2 md:gap-x-24">
+          <ul className="w-full md:w-auto grid md:grid-cols-2 gap-x-4 md:gap-x-24">
             {footerLinks.map((footerLink, index) => {
               const { link, path } = footerLink
               return (
@@ -32,7 +32,7 @@ const Footer = () => {
             })}
           </ul>
         </div>
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-2 text-[#26CCAF]">
           <p className="text-center  flex flex-col ">
             ReNEWed Psychological and Consultation Services, LLC
           </p>
@@ -42,7 +42,9 @@ const Footer = () => {
             href="tel:850-739-2332">
             850-739-2332
           </Link>
-          <Link href="mailto:renewedpsychological@gmail.com" className="hover:text-[#26CCAF]">
+          <Link
+            href="mailto:renewedpsychological@gmail.com"
+            className="hover:text-[#26CCAF]">
             renewedpsychological@gmail.com
           </Link>
           <div className="flex gap-4 mt-2">

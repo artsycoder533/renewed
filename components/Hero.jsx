@@ -4,19 +4,19 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)] w-full py-4 relative mix-blend-multiply -z-1">
+    <section className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)]  py-4 relative mix-blend-multiply -z-1 ">
       <Image
         src={hero}
         alt="lotus flower floating on water"
         fill
         style={{ objectFit: 'cover' }}
-        className="absolute -z-10 "
+        className="absolute -z-10"
         priority
       />
-      <div className="max-w-[1400px] mx-auto flex flex-col justify-center items-center w-full mt-[91px] pb-8 gap-12">
-        <h1 className="text-7xl font-bold w-[70%] leading-snug text-white text-center">
+      <div className="max-w-[1400px] mx-auto flex flex-col justify-center items-center w-full mt-[200px] pb-8 gap-12 border-red-700">
+        <h1 className="text-3xl md:text-7xl font-bold w-[70%] leading-snug text-white text-center">
           Experience <span className="italic text-[#BE8DE7]">Change</span> with
-          ReNEWed Psychologial and Consultation Services, LLC
+          ReNEWed Psychological and Consultation Services, LLC
         </h1>
         <button
           type="button"
