@@ -22,8 +22,10 @@ function Hamburger({ open, setOpen }) {
         />
         <span
           className={
-            'w-full h-[6px] bg-[#601A7F] rounded-lg transition-all ease-in duration-300 absolute ' +
-            (open ? 'origin-center -rotate-45 bg-black' : 'translate-y-[16px]')
+            'w-full h-[6px] bg-[#BE8DE7]rounded-lg transition-all ease-in duration-300 absolute ' +
+            (open
+              ? 'origin-center -rotate-45 bg-[#BE8DE7]'
+              : 'translate-y-[16px]')
           }
         />
       </button>
