@@ -8,11 +8,6 @@ function Intro() {
           Mission Statement
         </h2>
         <p className="leading-10 text-xl">
-          {/* <p
-            className="first-letter:text-7xl first-letter:font-bold first-letter:text-white
-  first-letter:mr-3 first-letter:float-left">
-            I
-          </p>{' '} */}
           I believe that people have an immense potential to improve their life,
           overcome their challenges and restore themselves. My goal is to
           provide safe, effective, client specific programming, tailored towards

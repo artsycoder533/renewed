@@ -37,7 +37,6 @@ const Navbar = () => {
       <ul
         className={
           'flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[138px] left-0 right-0 h-[calc(100vh-138px)] md:h-auto transition-all ease-in-out duration-500  ' +
-          // (open ? 'translate-x-0' : 'translate-x-[100vh] md:translate-x-0  ')(
           (open
             ? 'translate-x-0 bg-black'
             : 'translate-x-[100vw] md:translate-x-0 ')
@@ -89,4 +88,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-//bg-[#044C44]
