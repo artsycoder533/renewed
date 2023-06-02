@@ -6,7 +6,7 @@ import consultation from './public/images/consultation.jpg'
 
 export const navItems = [
   { link: 'Home', path: '#' },
-  { link: 'About Us', path: '#about-us' },
+  { link: 'About Me', path: 'about' },
   {
     link: 'Services',
     sublinks: [
@@ -21,7 +21,7 @@ export const navItems = [
       { link: 'Supervision', path: '/#supervision' },
     ],
   },
-  { link: 'Contact', path: '#contact' },
+  { link: 'Contact', path: 'contact' },
 ]
 
 export const footerLinks = [

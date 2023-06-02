@@ -6,12 +6,6 @@
   html {
     @apply scroll-smooth
   }
-  input, textarea {
-    @apply p-3 text-lg text-white bg-[#018183] placeholder:text-white
-  }
-  label {
-    @apply text-lg pb-2
-  }
 }
 
 /* width */

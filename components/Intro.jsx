@@ -2,7 +2,7 @@ import React from 'react'
 
 function Intro() {
   return (
-    <div className="bg-[#0B4D4B] text-white" id="why-therapy">
+    <section className="bg-[#0B4D4B] text-white" id="why-therapy">
       <div className="w-[90vw] md:w-[70vw] max-w-[1400px] mx-auto md:text-center py-24">
         <h2 className="text-4xl font-semibold mb-8 text-center">
           Mission Statement
@@ -33,7 +33,7 @@ function Intro() {
           benefits to your life. I look forward to hearing from you.
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 
