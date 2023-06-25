@@ -7,7 +7,7 @@ const about = () => {
     <section id="about" className="bg-[#044C44] pt-[250px] items-center py-24">
       <div className="flex w-full flex-col lg:flex-row justify-center items-center max-w-[1400px] mx-auto">
         <div className="lg:w-1/2">
-          <Image src={headshot} className="object-cover w-full h-full" />
+          <Image priority src={headshot} className="object-cover w-full h-full" />
         </div>
         <div className="w-full lg:w-5/12 px-14 py-12 lg:-ml-24 text-white lg:text-black lg:bg-white h-[800px]">
           <h2 className="text-5xl font-bold mb-12 tracking-tighter text-[#BF8EE8] text-center">
