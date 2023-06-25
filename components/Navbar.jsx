@@ -7,16 +7,15 @@ import Link from 'next/link'
 import { RxChevronDown } from 'react-icons/rx'
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false)
-  const [show, setShow] = useState(false)
+  // const [open, setOpen] = useState(false)
 
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style = 'scroll'
-    }
-  }, [open])
+  // useEffect(() => {
+  //   if (open) {
+  //     document.body.style.overflow = 'hidden'
+  //   } else {
+  //     document.body.style = 'scroll'
+  //   }
+  // }, [open])
 
   return (
     <nav className="text-white flex items-center justify-between max-w-[1400px] flex-col md:flex-row md:w-full mx-auto px-2">

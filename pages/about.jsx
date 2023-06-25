@@ -9,7 +9,7 @@ const about = () => {
         <div className="lg:w-1/2">
           <Image priority src={headshot} className="object-cover w-full h-full" />
         </div>
-        <div className="w-full lg:w-5/12 px-14 py-12 lg:-ml-24 text-white lg:text-black lg:bg-white h-[800px]">
+        <div className="w-full lg:w-5/12 px-14 py-12 lg:-ml-24 text-white lg:text-black lg:bg-white lg:h-[800px]">
           <h2 className="text-5xl font-bold mb-12 tracking-tighter text-[#BF8EE8] text-center">
             About Me
           </h2>
