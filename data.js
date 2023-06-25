@@ -64,22 +64,27 @@ export const services = [
   {
     title: 'Individual Therapy',
     image: individual,
+    link: '/individual-therapy'
   },
   {
     title: 'Family Therapy',
     image: family,
+    link: '/family-therapy',
   },
   {
     title: 'Couples Therapy',
     image: couples,
+    link: '/couples-therapy',
   },
   {
     title: 'Psychological Assessments and Evaluations',
     image: assessments,
+    link: '/psychological-assessments',
   },
   {
     title: 'Consultations',
     image: consultation,
+    link: 'consultation',
   },
 ]
 
