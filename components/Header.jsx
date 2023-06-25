@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Navbar from './Navbar'
+import Navbar3 from './Navbar3'
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -24,7 +25,8 @@ const Header = () => {
           ? 'bg-black'
           : 'md:bg-transparent bg-gradient-to-b from-black to-transparent'
       }`}>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbar3 />
     </header>
   )
 }

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)]  py-4 relative mix-blend-multiply -z-1 ">
+    <section id="hero" className="min-h-[calc(70vh-91px)] sm:min-h-[calc(80vh-91px)] py-4 relative mix-blend-multiply -z-1 ">
       <Image
         src={hero}
         alt="lotus flower floating on water"
