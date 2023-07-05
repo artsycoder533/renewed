@@ -11,16 +11,16 @@ const Navbar3 = () => {
   const [show, setShow] = useState(false)
   const [showSublinks, setShowSublinks] = useState(false)
 
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style = 'scroll'
-    }
-  }, [open])
+  // useEffect(() => {
+  //   if (open) {
+  //     document.body.style.overflow = 'hidden'
+  //   } else {
+  //     document.body.style = 'scroll'
+  //   }
+  // }, [open])
 
   return (
-    <nav className="text-white flex items-center justify-between max-w-[1400px] flex-col md:flex-row md:w-full mx-auto px-2">
+    <nav className="text-white flex items-center justify-between max-w-[1400px] flex-col md:flex-row md:w-full mx-auto px-2 ">
       <div className="flex  justify-between w-full md:w-auto">
         <div className="flex items-center md:gap-6 flex-row">
           <Image
@@ -38,7 +38,7 @@ const Navbar3 = () => {
       </div>
       <ul
         className={
-          'pt-12 md:pt-0 flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto  md:justify-end absolute md:static top-[138px] left-0 right-0 min-h-[calc(100vh-138px)] md:h-auto transition-all ease-in-out duration-500  ' +
+          'pt-12 md:pt-0 flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto  md:justify-end absolute md:static top-[138px] left-0 right-0 h-[calc(100vh-138px)] md:h-auto transition-all ease-in-out duration-500 ' +
           (open
             ? 'translate-x-0 bg-black'
             : 'translate-x-[100vw] md:translate-x-0 ')

@@ -117,5 +117,5 @@ export const familyTherapy = {
   slogan: 'Maintain a Happy Home',
   description:
     'Family therapy is designed to address specific issues that affect the cohesion of the family, such as major life transitions or mental health conditions. Families can benefit from therapy when they experience any stressful event by aiming to promote understanding and collaboration among family members.',
-  image: assessments,
+  image: family,
 }

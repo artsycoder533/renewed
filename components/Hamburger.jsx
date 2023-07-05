@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hamburger({ open, setOpen }) {
+function Hamburger({ open, setOpen, handleServicesClick }) {
   return (
     <>
       <button
